@@ -50,6 +50,7 @@ html {
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
 
+
 body {
   margin: 0;
   font-family: "Mukta", sans-serif;
@@ -62,6 +63,11 @@ body {
 
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important; }
+
+  h6.time-line-item-title.title-picture {
+    position: absolute;
+    top: 10%;
+}
 
 hr {
   box-sizing: content-box;

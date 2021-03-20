@@ -567,7 +567,7 @@ main {
     position: relative;
     perspective: 800px;
     overflow: hidden;
-
+    display: none;
     .overlay {
         position: absolute;
         left: 0;
