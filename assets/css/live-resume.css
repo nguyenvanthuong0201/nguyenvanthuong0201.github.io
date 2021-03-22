@@ -67,6 +67,7 @@ body {
   h6.time-line-item-title.title-picture {
     position: absolute;
     top: 10%;
+    font-size: 0.8rem;
 }
 
 hr {
@@ -7697,24 +7698,24 @@ main {
         padding-bottom: 0; }
       main .time-line-item .badge {
         padding: 6px 10px;
-        font-size: 8px;
+        font-size: 1rem;
         font-weight: 500;
         line-height: 1;
         border-radius: 2px;
         margin-bottom: 8px; }
       main .time-line-item-title {
-        font-size: 12px;
+        font-size: 1.25rem;
         font-weight: 700;
         line-height: 1;
         margin-bottom: 2px; }
       main .time-line-item-subtitle {
-        font-size: 10px;
+        font-size: 0.8rem;
         font-weight: 500;
         line-height: 1.6;
         color: #a7a7a7;
         margin-bottom: 3px; }
       main .time-line-item-content {
-        font-size: 10px;
+        font-size: 1rem;
         font-weight: 300;
         line-height: 1.6;
         margin-bottom: 0; }
@@ -7742,14 +7743,13 @@ main {
       align-items: center;
       justify-content: center; }
     main .service-card .service-title {
-      font-size: 12px;
+      font-size: 1.25rem;
       font-weight: bold;
       line-height: 1;
       margin-bottom: 8px; }
     main .service-card .service-description {
-      font-size: 10px;
+      font-size: 1rem;
       font-weight: 300;
-      max-width: 180px;
       margin-bottom: 0; }
   main .testimonial-section {
     background-color: #080808;
