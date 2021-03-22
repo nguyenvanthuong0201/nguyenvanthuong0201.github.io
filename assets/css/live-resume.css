@@ -4029,7 +4029,7 @@ input[type="button"].btn-block {
 
 .media {
   display: flex;
-  align-items: flex-start; }
+  align-items: center; }
 
 .media-body {
   flex: 1; }
@@ -7633,6 +7633,15 @@ aside {
 main {
   flex-grow: 1; }
 
+
+h5.portfoli-content {
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding:0px 15px;
+    text-align: center;
+}
+
+
 main {
   padding: 36px 60px 24px;
   background-color: #ffffff;
@@ -7735,13 +7744,14 @@ main {
         main .service-card:last-child {
           border-bottom: 0; } }
     main .service-card .service-icon {
-      width: 29.9px;
-      height: 29.9px;
+      /* width: 29.9px;
+      height: 29.9px; */
       margin-right: 17.1px;
-      display: flex;
+      /* display: flex;
       height: 100%;
       align-items: center;
-      justify-content: center; }
+      justify-content: center; */
+     }
     main .service-card .service-title {
       font-size: 1.25rem;
       font-weight: bold;
@@ -7869,15 +7879,20 @@ main {
     justify-content: space-between; }
     main .portfolio-wrapper .portfolio-item {
       width: calc(25% - 10.5px);
-      height: 300px;
       margin-bottom: 15px;
       background-color: #f2f2f2;
       display: flex;
-      justify-content: center;
-      align-items: center; }
+      flex-direction: column;
+      padding: 15px;
+     }
       @media (max-width: 1500px) {
         main .portfolio-wrapper .portfolio-item {
-          width: calc(50% - 7px); } }
+          width: calc(50% - 7px); } 
+          main .portfolio-wrapper .portfolio-item figcaption.portfolio-caption.padding-text {
+            padding: 9.5px;
+      }
+        /* //TODO */
+        }
       @media (max-width: 991px) {
         main .portfolio-wrapper .portfolio-item {
           width: 100%; } }
@@ -8157,5 +8172,10 @@ main {
     transform: rotate3d(0, 0, 0, 0deg); }
   to {
     transform: rotate3d(0, 1, 0, 104deg); } }
-
+  
+      @media only screen and (min-width: 1280px){
+        main .portfolio-wrapper .portfolio-item figcaption.portfolio-caption.padding-text {
+          padding: 9.5px;
+        }
+      }
 /*# sourceMappingURL=live-resume.css.map */
