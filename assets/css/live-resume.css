@@ -7733,10 +7733,10 @@ main {
   main .service-card {
     padding-top: 11px;
     padding-bottom: 11px; }
-    main .service-card:first-child, main .service-card:nth-child(3) {
+    main .service-card:first-child, main .service-card:nth-child(3), main .service-card:nth-child(5), main .service-card:nth-child(7) {
       border-right: 1px solid #f3f3f3; }
       @media (max-width: 991px) {
-        main .service-card:first-child, main .service-card:nth-child(3) {
+        main .service-card:first-child, main .service-card:nth-child(3), main .service-card:nth-child(5) , main .service-card:nth-child(7) {
           border-right: 0; } }
     @media (max-width: 991px) {
       main .service-card {
@@ -8176,6 +8176,11 @@ main {
       @media only screen and (min-width: 1280px){
         main .portfolio-wrapper .portfolio-item figcaption.portfolio-caption.padding-text {
           padding: 9.5px;
+        }
+      }
+      @media only screen and (max-width: 575px) {
+        h5.portfoli-content {
+          font-size: 0.8rem;
         }
       }
 /*# sourceMappingURL=live-resume.css.map */
