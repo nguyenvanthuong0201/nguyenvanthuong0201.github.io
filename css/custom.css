@@ -251,6 +251,11 @@
     width: 200px;
     height: 200px;
   }
+  .nutbatdau{
+      width:100px;
+      height: 100px;
+      background-size:cover
+    }
 }
 
 @media only screen and (max-width: 700px) {
