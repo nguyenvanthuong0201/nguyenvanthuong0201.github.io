@@ -363,3 +363,6 @@
     -webkit-transform: translateX(-50%) translateY(330%);
     cursor: pointer;
 }
+.nutquay {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
