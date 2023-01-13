@@ -44,7 +44,7 @@
         <canvas id="canvas" width="450" height="450" data-responsiveMinWidth="180" data-responsiveScaleHeight="true" data-responsiveMargin="50">
          </canvas>
         <div id="batdauquay" class="nutbatdau"></div>
-        <div onClick="startSpin();" class="nutquay"></div>
+        <!-- <div class="nutquay"></dis> -->
     </div>
 
     <img class="responsive2" style="position:fixed;z-index:99;top:0px;right:0px" src="img/hea1.png" />
@@ -105,6 +105,9 @@
     function tatpopup() {
         document.getElementById("caidat").style.display = "none";
     }
+    $("#batdauquay").click(function(){
+        startSpin();
+    })
 
     $(".buttontatpopup").hover(
         function() {
@@ -219,7 +222,7 @@
             'duration': 20, // Thời lượng tính bằng giây.
             'spins': 15, // Số vòng quay hoàn chỉnh mặc định.
             'callbackFinished': alertPrize,
-            // 'callbackSound': playSound, // Chức năng gọi khi âm thanh đánh dấu được kích hoạt.
+            'callbackSound': playSound, // Chức năng gọi khi âm thanh đánh dấu được kích hoạt.
             'soundTrigger': 'pin', // Chỉ định các chân là để kích hoạt âm thanh, tùy chọn khác là 'phân đoạn'.
             'type': 'spinToStop',
             'duration': 6.4,
@@ -264,6 +267,7 @@
     function laypower() {
         wheelPower = document.getElementById("manhornhe").value; // Lấy dữ liệu thanh range
     }
+
 
     // -------------------------------------------------------
     // Sau khi nhấp vào nút quay
@@ -331,7 +335,7 @@
             }
         } else { // Nếu hết lượt quay(dem = solanquay)
             document.getElementById("xuatluotquay").innerHTML = "0";
-            $(".nutbatdau").css("background-image", "url(img/controhetluot.png)");
+            // $(".nutbatdau").css("background-image", "url(img/controhetluot.png)");
 
             if (indicatedSegment.text == 'Ô mất lượt') {
                 matluot.play(); // Bật nhạc fail
