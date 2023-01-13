@@ -227,7 +227,7 @@
          position: absolute;
          width:180px;
          height: 180px;
-         z-index: 99;
+         z-index: 999;
          }
          .nutcaidat{
          background-image: url('../img/caidat.png');
